@@ -23,6 +23,8 @@
     "react-toastify": "^4.1.0"
   },
   "scripts": {
+    "dev": "run-p server start",
+    "server": "node src/server",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
