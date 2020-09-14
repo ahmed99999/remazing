@@ -47,8 +47,8 @@ class SideBar extends Component {
             <nav>
                 <ul className={classes.nav__links}>
                     {
-                        elements.map(element => (
-                            <li className={classes.nav__link}>
+                        elements.map((element, index) => (
+                            <li key={index} className={classes.nav__link}>
                                 <SideBarElement
                                     url={element.url}
                                     text={element.text}

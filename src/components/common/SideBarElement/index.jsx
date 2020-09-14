@@ -10,8 +10,8 @@ const SideBarElement = ({ url, iconClass, text, lis }) => {
                 <span>{text}</span>
             </Link>
             <ul className={classes.nav__links}>
-                {lis.map(li => (
-                    <li>
+                {lis.map((li, index) => (
+                    <li key={index}>
                         <Link className={classes.sidbar__element} to={url}>
                             <i className={li.iconClass} aria-hidden="true"></i>
                             <span>{li.text}</span>
