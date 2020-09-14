@@ -1,0 +1,13 @@
+@import "../../SideBar/sidebar.module";
+
+$fontColor: #787a7c;
+
+.sidbar__element{
+    color: $fontColor;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.liItem{
+    color: $fontColor;
+}

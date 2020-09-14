@@ -6,12 +6,6 @@ class Clients extends Component {
     render() {
         return (
             <div className={classes.clients}>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
             </div>
         );
     }

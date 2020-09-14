@@ -1,0 +1,11 @@
+$background-color: #f7f7f7;
+
+.nav__links{
+    list-style:none;
+    padding: 0px;
+}
+
+.nav__link{
+    background-color: $background-color;
+    padding: 10px;
+}
