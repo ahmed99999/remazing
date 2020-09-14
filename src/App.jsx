@@ -6,14 +6,18 @@ import SideBar from './components/SideBar';
 
 function App() {
   return (
-    <>
-      <Logo />
-      <SideBar />
-      <Switch>
-        <Route path="/clients" component={Clients} />
-        <Redirect from="/" exact to="/clients" />
-      </Switch>
-    </>
+    <div className="row">
+      <div className="col-3">
+        <Logo />
+        <SideBar />
+      </div>
+      <div className="col-9" >
+        <Switch>
+          <Route path="/clients" component={Clients} />
+          <Redirect from="/" exact to="/clients" />
+        </Switch>
+      </div>
+    </div>
   );
 }
 

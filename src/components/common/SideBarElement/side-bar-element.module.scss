@@ -1,13 +1,17 @@
 @import "../../SideBar/sidebar.module";
 
-$fontColor: #787a7c;
-
 .sidbar__element{
     color: $fontColor;
-    padding: 10px 0px;
-    text-align: center;
+    // padding: 10px 0px;
+    // position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
+.nav__links{
+    border: none;
+}
 .liItem{
     color: $fontColor;
 }

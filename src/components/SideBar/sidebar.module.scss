@@ -1,11 +1,15 @@
-$background-color: #f7f7f7;
+$fontColor: #787a7c;
 
 .nav__links{
     list-style:none;
     padding: 0px;
+    border: solid 1px $fontColor;
+    // min-width: 250px;
+    // max-width: 250px;
+    // min-height: 100px;
 }
 
 .nav__link{
-    background-color: $background-color;
     padding: 10px;
+    cursor: pointer;    
 }
