@@ -1,7 +1,7 @@
 [
     {
         "name": "MCDonals",
-        "imageUrl": "https://de.wikipedia.org/wiki/McDonald%E2%80%99s#/media/Datei:McDonald's_Golden_Arches.svg"
+        "imageUrl": "https://blog.tickyes.com/wp-content/uploads/2012/07/mcdonalds1-300x251.png"
     },
     {
         "name": "oddish",
@@ -10,21 +10,5 @@
     {
         "name": "duff",
         "imageUrl": "https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-tssimpduffcircle-2-productimagenowatermark.jpg"
-    },
-    {
-        "name": "umbrella",
-        "imageUrl": ""
-    },
-    {
-        "name": "encom",
-        "imageUrl": ""
-    },
-    {
-        "name": "burger king",
-        "imageUrl": ""
-    },
-    {
-        "name": "vincero",
-        "imageUrl": ""
     }
 ]

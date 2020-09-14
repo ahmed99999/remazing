@@ -21,3 +21,21 @@ server.listen(port, () => {
 app.get('/api/clients', async (req, res) => {
     res.send(clients);
 });
+
+// ,
+    // {
+    //     "name": "umbrella",
+    //     "imageUrl": ""
+    // },
+    // {
+    //     "name": "encom",
+    //     "imageUrl": ""
+    // },
+    // {
+    //     "name": "burger king",
+    //     "imageUrl": ""
+    // },
+    // {
+    //     "name": "vincero",
+    //     "imageUrl": ""
+    // }

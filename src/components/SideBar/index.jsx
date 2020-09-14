@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import SideBarElement from '../common/SideBarElement';
-import classes from './sidebar.module.scss';
+import classes from './index.module.scss';
 
 class SideBar extends Component {
     state = {

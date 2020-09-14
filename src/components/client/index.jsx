@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import classes from './client.module.scss';
+import classes from './index.module.scss';
 
 class Client extends Component {
     state = {};

@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './search-bar.module.scss';
+import classes from './index.module.scss';
 
 const SearchBar = ({ handelSearch }) => {
     return (

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import classes from './clients.module.scss';
+import classes from './index.module.scss';
 import SeachBar from '../SearchBar';
 import Client from '../client';
 import ClientClass from '../../services/clientsService';

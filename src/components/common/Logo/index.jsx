@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import classes from './logo.module.scss';
+import classes from './index.module.scss';
 
 const Logo = () => {
     return (
