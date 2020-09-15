@@ -9,9 +9,9 @@ class Client extends Component {
         const { client } = this.props;
         return (
             <div className={`card ${classes.client__card}`}>
-                <img className="card-img-top" src={client.imageUrl} alt="Card image cap" />
+                <img className="card-img-top" src={client.imageUrl} alt="Card cap" />
                 <div className="card-body">
-                    <p className="card-text">{client.name}</p>
+                    {/* <p className="card-text">{client.name}</p> */}
                 </div>
             </div>
         );

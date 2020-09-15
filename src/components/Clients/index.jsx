@@ -26,10 +26,7 @@ class Clients extends Component {
 
         return (
             <div className={classes.clients}>
-                <div>
-                    <h3>Brands</h3>
-                </div>
-                <div>
+                <div className="row">
                     <SeachBar handelSearch={this.handelSearch} />
                 </div>
                 <div className="row">

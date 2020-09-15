@@ -1,15 +1,35 @@
 @import "../../SideBar/index.module";
 
-.sidbar__element{
+.sidbar__element__Link{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
     color: $fontColor;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    padding: 7% 0%;    
+    width: 100%;
+    // height: 100%;
+    text-decoration: none;
 }
 
-.nav__links{
-    border: none;
+.sidbar__element__Link:hover{
+    color: $themeColor;
+    text-decoration: none;
+    background-color: $backgroundThemeColor;
 }
-.liItem{
-    color: $fontColor;
-}
+// .sidbar__element:hover{
+//     style: none;
+//     color: $themeColor ;
+// }
+
+// .sidbar__element:active{
+//     color: $themeColor ;
+// }
+
+// .nav__links{
+//     border: none;
+// }
+// .liItem{
+//     color: $fontColor;
+// }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SideBarElement from '../common/SideBarElement';
 import classes from './index.module.scss';
+import { Link } from 'react-router-dom';
 
 class SideBar extends Component {
     state = {
@@ -44,22 +45,17 @@ class SideBar extends Component {
     render() {
         const { elements } = this.state;
         return (
-            <nav>
-                <ul className={classes.nav__links}>
-                    {
-                        elements.map((element, index) => (
-                            <li key={index} className={classes.nav__link}>
-                                <SideBarElement
-                                    url={element.url}
-                                    text={element.text}
-                                    lis={element.lis}
-                                    iconClass={element.iconClass}
-                                />
-                            </li>
-                        ))
-                    }
-                </ul>
-            </nav>
+            <div className={classes.nav__links}>
+                {elements.map((element, index) => (
+                    <SideBarElement
+                        key={index}
+                        url={element.url}
+                        text={element.text}
+                        lis={element.lis}
+                        iconClass={element.iconClass}
+                    />
+                ))}
+            </div>
         );
     }
 }

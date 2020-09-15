@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
 $fontFamily: 'Lato', sans-serif;
 
-body{
+body {
     font-family: $fontFamily;
+    height: 100%;
+}
+
+.sideBar{
+    height: 100%;
 }

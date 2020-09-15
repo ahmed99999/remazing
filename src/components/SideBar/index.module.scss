@@ -1,15 +1,14 @@
 $fontColor: #787a7c;
+$borderColor: #cacaca;
+$themeColor: #d65e27;
+$backgroundThemeColor: #f3e0d9;
 
 .nav__links{
     list-style:none;
     padding: 0px;
-    border: solid 1px $fontColor;
-    // min-width: 250px;
-    // max-width: 250px;
-    // min-height: 100px;
+    border: solid 1px $borderColor;
+    border-bottom: none;
+    text-align: center;
+    height: 100%;
 }
 
-.nav__link{
-    padding: 10px;
-    cursor: pointer;    
-}

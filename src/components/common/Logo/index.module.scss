@@ -1,6 +1,12 @@
-@import "../../SideBar/sidebar.module";
+@import "../../SideBar/index.module";
 
-.logo{
+.logo img{
     cursor: pointer;
-    border: solid 1px $fontColor;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    // border: solid 1px $borderColor;
+    left: 50%;
+    top: 50%;
+    transform: translate(50%, 0%);
 }
