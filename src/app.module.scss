@@ -1,12 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-
+@import "./components/SideBar/index.module.scss";
 $fontFamily: 'Lato', sans-serif;
 
 body {
     font-family: $fontFamily;
-    height: 100%;
 }
 
-.sideBar{
+.sideBar__div{
+    border: solid 1px $borderColor;
+    border-bottom: none;
+}
+
+.Content__div{
+    border: solid 1px $borderColor;
+    border-left: none;
     height: 100%;
+    border-bottom: none;
+    background-color: $contentColor;
+}
+
+.Logo__div{
+    border: solid 1px $borderColor;
+    border-bottom: none;
+    border-top: none;
 }

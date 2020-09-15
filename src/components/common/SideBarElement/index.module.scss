@@ -9,7 +9,6 @@
     color: $fontColor;
     padding: 7% 0%;    
     width: 100%;
-    // height: 100%;
     text-decoration: none;
 }
 
@@ -18,18 +17,13 @@
     text-decoration: none;
     background-color: $backgroundThemeColor;
 }
-// .sidbar__element:hover{
-//     style: none;
-//     color: $themeColor ;
-// }
 
-// .sidbar__element:active{
-//     color: $themeColor ;
-// }
+.sidbar__element__Link__a_before{
+    padding-right: 10%;
+    padding-left: 10%;
+}
 
-// .nav__links{
-//     border: none;
-// }
-// .liItem{
-//     color: $fontColor;
-// }
+.sidbar__element__Link__a_after{
+    padding-left: 10%;
+    padding-right: 10%;
+}

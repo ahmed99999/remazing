@@ -7,7 +7,8 @@ import ClientClass from '../../services/clientsService';
 class Clients extends Component {
     state = {
         clients: [],
-        loaded: false
+        loaded: false,
+        shape: true
     };
 
     async componentDidMount() {
@@ -21,17 +22,29 @@ class Clients extends Component {
         this.setState({ clients: filteredClients });
     };
 
-    render() {
-        const { clients } = this.state;
+    setShape = () => {
+        const shape = !this.state.shape;
+        this.setState({ shape })
+    };
 
+    render() {
+        const { clients, shape, loaded } = this.state;
         return (
             <div className={classes.clients}>
-                <div className="row">
-                    <SeachBar handelSearch={this.handelSearch} />
+                <div className={`row `}>
+                    <SeachBar
+                        handelSearch={this.handelSearch}
+                        setShape={this.setShape}
+                        className={`${classes.seach_bar__div}`}
+                    />
                 </div>
                 <div className="row">
                     {clients.map((client, index) => (
-                        <Client key={index} client={client} />
+                        <Client
+                            key={index}
+                            client={client}
+                            shape={shape}
+                        />
                     ))}
                 </div>
             </div>

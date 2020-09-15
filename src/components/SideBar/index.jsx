@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import SideBarElement from '../common/SideBarElement';
 import classes from './index.module.scss';
-import { Link } from 'react-router-dom';
 
 class SideBar extends Component {
     state = {

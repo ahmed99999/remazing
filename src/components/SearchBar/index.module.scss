@@ -1,8 +1,44 @@
+@import "../SideBar/index.module.scss";
+
 .search__bar{
-    width: 50%; 
-    text-align: center;
+    width: 100%;
+    
+    background-color: $contentColor;
 }
 
 .search__bar h3 {
     color: black;
+}
+
+.search__bar__div{
+    width: 75%;
+    text-align: center;
+    padding-left: 15%;
+}
+
+.search__bar__div__i{ 
+    color: $borderColor;
+    padding-right: 10px;
+    cursor: pointer;
+    // width: 180%;
+    // padding-top: 4%;
+    // padding-left: 90%;
+} 
+
+.search__bar__div__i:hover{
+    color: black;
+}
+
+.search__bar__input{
+    background-color: $contentColor;
+    padding: 5px 22px;
+    margin: 10px 0px;
+    width: 100%;
+    border: solid 1px $borderColor;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.search__bar__input:active {
+    border-color: $borderColor
 }
