@@ -1,9 +1,9 @@
 @import "../../variables.modules";
 
-.clients{
-    // color: $textColor;
-}
-
-.seach_bar__div{
-    border: 1px solid black;
+.brands{
+    background-color: $BrandsColor;
+    border-bottom: 1px solid $borderColor;
+    height: 65px;
+    padding-left: 3%;
+    padding-top: 2%;
 }

@@ -31,6 +31,9 @@ class Clients extends Component {
         const { clients, shape, loaded } = this.state;
         return (
             <div>
+                <div className={`row ${classes.brands}`}>
+                    <h5>Brands</h5>
+                </div>
                 <div className="row">
                     <SeachBar
                         handelSearch={this.handelSearch}

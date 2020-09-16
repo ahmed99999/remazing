@@ -8,7 +8,7 @@ import classes from './app.module.scss';
 
 function App() {
   return (
-    <>
+    <container>
       <div className="row" >
         <div className={`col-3 ${classes.Logo__div}`}>
           <Logo />
@@ -17,7 +17,7 @@ function App() {
           <NavBar />
         </div>
       </div>
-      <div className={`row`}>
+      <div className={`row ${classes.row__class}`}>
         <div className={`col-3 ${classes.sideBar__div}`}>
           <SideBar />
         </div>
@@ -28,7 +28,7 @@ function App() {
           </Switch>
         </div>
       </div>
-    </>
+    </container>
   );
 }
 

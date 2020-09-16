@@ -6,9 +6,16 @@ body {
     font-family: $fontFamily;
 }
 
+body, .container{
+    height:100%;
+}
+
 .sideBar__div{
     border: solid 1px $borderColor;
     border-bottom: none;
+    overflow: hidden;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
 }
 
 .Content__div{
@@ -17,10 +24,24 @@ body {
     height: 100%;
     border-bottom: none;
     background-color: $contentColor;
+    overflow: hidden;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
 }
 
 .Logo__div{
     border: solid 1px $borderColor;
     border-bottom: none;
     border-top: none;
+}
+
+.container{
+    display:table;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.row__class{
+    height: 100%;
+    display: table-row;
 }
