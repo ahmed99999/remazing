@@ -2,18 +2,23 @@
 
 .search__bar{
     width: 100%;
-    
     background-color: $contentColor;
 }
 
-.search__bar h3 {
-    color: black;
+.search__bar h4{
+    cursor: pointer;
+}
+
+.search__bar h4 i {
+    padding-left: 10px;
+    color: $borderColor;
 }
 
 .search__bar__div{
     width: 75%;
     text-align: center;
     padding-left: 15%;
+    padding-right: 15%;
 }
 
 .search__bar__div__i{ 

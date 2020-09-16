@@ -4,6 +4,11 @@ import classes from './index.module.scss';
 const SearchBar = ({ handelSearch, setShape }) => {
     return (
         <nav className={`navbar navbar-light ${classes.search__bar}`}>
+            <h4 className="float-left">
+                <span>Your Brands</span>
+                <i className="fa fa-chevron-up" aria-hidden="true"></i>
+            </h4>
+
             <div className={`${classes.search__bar__div}`}>
                 <input
                     className={` mr-sm-2 ${classes.search__bar__input}`}

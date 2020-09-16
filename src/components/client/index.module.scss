@@ -9,10 +9,37 @@
 }
 
 .client__card img {
-    width: 50%;
-    height: 50%;
-    left: 50%;
-    top: 50%;
-    transform: translate(50%, 50%);
+    width: 75%;
+    height: 75%;
+    transform: translate(17%, 17%);
     border: solid 1px $borderColor;
+    background-color: $contentColor;
+}
+
+.client__card__div{
+    width: 90%;
+    height: 90%;
+    max-height: 16rem;
+    transform: translate(6%, 6%);
+    border: solid 1px $borderColor;
+    background-color: $contentColor;
+}
+
+.client__card__div__ul {
+    text-align: center;
+}
+
+.client__card__div__ul div {
+    right: 10%;
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px 5px;
+    padding: 5px 5px;
+}
+
+.client__card__div__ul div:hover{
+    background-color: $themeColor;
+    color: white;
 }

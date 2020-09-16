@@ -8,7 +8,7 @@ const SideBarElement = ({ url, iconClass, text, lis }) => {
         <Link to={url} className={classes.sidbar__element__Link}>
             <i className={`${iconClass} ${classes.sidbar__element__Link__a_before}`} aria-hidden="true"></i>
             <span>{text}</span>
-            {hasChildren && <i className={`fa fa-arrow-down ${classes.sidbar__element__Link__a_after}`} aria-hidden="true"></i>}
+            {hasChildren && <i className={`fa fa-chevron-down ${classes.sidbar__element__Link__a_after}`} aria-hidden="true"></i>}
         </Link>
     );
 }

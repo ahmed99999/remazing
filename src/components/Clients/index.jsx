@@ -30,8 +30,8 @@ class Clients extends Component {
     render() {
         const { clients, shape, loaded } = this.state;
         return (
-            <div className={classes.clients}>
-                <div className={`row `}>
+            <div>
+                <div className="row">
                     <SeachBar
                         handelSearch={this.handelSearch}
                         setShape={this.setShape}

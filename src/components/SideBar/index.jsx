@@ -6,7 +6,7 @@ class SideBar extends Component {
     state = {
         elements: [
             {
-                url: '/dashborad',
+                url: '/clients',
                 text: 'Dashboard',
                 iconClass: 'fa fa-home',
                 lis: []
