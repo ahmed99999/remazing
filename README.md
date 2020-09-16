@@ -8,6 +8,10 @@ Before you run the project make sure that the ports: 3000 and 3001 are not used 
 
 the reason is because the project will run two servers ( backend and fronted ) and in order to avoid cors issues the [http://localhost:3001](http://localhost:3001) is whitelisted in the backend code ( server/index.js )
 
+### `npm install`
+
+to install all the dependencies required for running the application
+
 ### `npm run dev`
 
 Runs the app in the development mode.<br />
