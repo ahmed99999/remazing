@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import SideBarElement from '../common/SideBarElement';
-import classes from './index.module.scss';
 
 class SideBar extends Component {
     state = {
@@ -44,7 +43,7 @@ class SideBar extends Component {
     render() {
         const { elements } = this.state;
         return (
-            <div className={classes.nav__links}>
+            <React.Fragment>
                 {elements.map((element, index) => (
                     <SideBarElement
                         key={index}
@@ -54,7 +53,7 @@ class SideBar extends Component {
                         iconClass={element.iconClass}
                     />
                 ))}
-            </div>
+            </React.Fragment>
         );
     }
 }
