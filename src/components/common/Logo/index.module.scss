@@ -1,11 +1,10 @@
-@import "../../SideBar/index.module";
+@import "../../../variables.modules";
 
 .logo img{
     cursor: pointer;
     width: 50%;
     height: 100%;
     padding: 10px;
-    // border: solid 1px $borderColor;
     left: 50%;
     top: 50%;
     transform: translate(50%, 0%);

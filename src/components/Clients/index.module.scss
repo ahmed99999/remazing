@@ -1,10 +1,9 @@
-$textColor: blue;
+@import "../../variables.modules";
 
 .clients{
     color: $textColor;
 }
 
 .seach_bar__div{
-    // text-align: center;
     border: 1px solid black;
 }

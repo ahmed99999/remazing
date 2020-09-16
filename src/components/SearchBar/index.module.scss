@@ -1,4 +1,4 @@
-@import "../SideBar/index.module.scss";
+@import "../../variables.modules";
 
 .search__bar{
     width: 100%;
@@ -20,9 +20,6 @@
     color: $borderColor;
     padding-right: 10px;
     cursor: pointer;
-    // width: 180%;
-    // padding-top: 4%;
-    // padding-left: 90%;
 } 
 
 .search__bar__div__i:hover{

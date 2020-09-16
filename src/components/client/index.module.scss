@@ -1,4 +1,4 @@
-$borderdColor: #beb7be;
+@import "../../variables.modules";
 
 .client__card {
     width: 18rem;
@@ -14,5 +14,5 @@ $borderdColor: #beb7be;
     left: 50%;
     top: 50%;
     transform: translate(50%, 50%);
-    border: solid 1px $borderdColor;
+    border: solid 1px $borderColor;
 }
