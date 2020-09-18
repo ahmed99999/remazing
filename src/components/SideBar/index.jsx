@@ -22,6 +22,7 @@ class SideBar extends Component {
                 iconClass: 'fa fa-clock-o',
                 lis: [
                     {
+                        url: '/monitoring',
                         text: 'Content',
                         iconClass: 'fa fa-lightbulb-o'
                     }
@@ -33,6 +34,7 @@ class SideBar extends Component {
                 iconClass: 'fa fa-cog',
                 lis: [
                     {
+                        url: '/account',
                         text: 'Users',
                         iconClass: 'fa fa-users'
                     }
