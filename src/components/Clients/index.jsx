@@ -23,8 +23,7 @@ class Clients extends Component {
         this.setState({ clients: filteredClients });
     };
 
-    setShape = () => {
-        const shape = !this.state.shape;
+    setShape = shape => {
         this.setState({ shape });
     };
 
@@ -40,7 +39,7 @@ class Clients extends Component {
                     <div className="row">
                         <SeachBar
                             handelSearch={this.handelSearch}
-                            setShape={this.setShape}
+                            setShape={(shape) => this.setShape(shape)}
                             className={`${classes.seach_bar__div}`}
                         />
                     </div>

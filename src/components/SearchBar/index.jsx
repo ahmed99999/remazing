@@ -17,8 +17,8 @@ const SearchBar = ({ handelSearch, setShape }) => {
                 />
             </div>
             <div className="float-right">
-                <i onClick={() => setShape()} className={`fa fa-th-large fa-2x ${classes.search__bar__div__i}`} aria-hidden="true"></i>
-                <i onClick={() => setShape()} className={`fa fa-th-list fa-2x ${classes.search__bar__div__i}`} aria-hidden="true"></i>
+                <i onClick={() => setShape(true)} className={`fa fa-th-large fa-2x ${classes.search__bar__div__i}`} aria-hidden="true"></i>
+                <i onClick={() => setShape(false)} className={`fa fa-th-list fa-2x ${classes.search__bar__div__i}`} aria-hidden="true"></i>
             </div>
         </nav>
     );

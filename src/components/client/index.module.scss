@@ -4,14 +4,27 @@
     width: 18rem;
     height: 18rem;
     margin: 10px;
-    background-color: black;
     cursor: pointer;
+}
+
+.client__card__list{
+    width: 80%;
+    margin: 10px;
+    max-height: 34rem;
+    left: 10%;
 }
 
 .client__card img {
     width: 75%;
     height: 75%;
     transform: translate(17%, 17%);
+    border: solid 1px $borderColor;
+    background-color: $contentColor;
+}
+
+.client__card__list img {
+    width: 50%;
+    height: 100%;
     border: solid 1px $borderColor;
     background-color: $contentColor;
 }
