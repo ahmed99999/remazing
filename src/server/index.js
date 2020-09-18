@@ -18,8 +18,15 @@ server.listen(port, () => {
     console.log(`Listening at ${port}`);
 });
 
-app.get('/api/clients', async (req, res) => {
+app.get('/api/clients', (req, res) => {
     res.send(clients);
+});
+
+app.get('/api/user', (req, res) => {
+    res.send({
+        name: "Ahmed",
+        image: "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+    });
 });
 
 // ,
